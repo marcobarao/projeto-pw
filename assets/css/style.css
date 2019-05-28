@@ -1,0 +1,139 @@
+body {
+    background-color: #fafafa;
+}
+
+.logo-wrapper {
+    width: 80px;
+    height: 60px;
+    overflow: hidden;
+}
+
+#logo {
+    width: 100%;
+    height: 100%;
+    transform-origin: 65% 75%;
+}
+
+.btn-golden {
+    cursor: pointer;
+    background-color: #FBB452;
+    color: #fafafa;
+}
+
+.group-statements {
+    width: 100%;
+    border-radius: 0;
+}
+
+.btn-success {
+    width: 100%;
+    cursor: pointer;
+    background-color: #27ae60;
+    color: #fafafa;
+}
+
+.btn-link {
+    color: #2c3e50;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btn-link:hover {
+    color: #2c3e50;
+    text-decoration: none;
+}
+
+.list-info {
+    display: flex;
+    align-items: center;
+}
+
+.accordion {
+    margin-bottom: 30px;
+}
+
+.btn-danger {
+    width: 100%;
+    cursor: pointer;
+    background-color: #c0392b;
+    color: #fafafa;
+}
+
+.indicator {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.debit-indicator {
+    background-color: #c0392b;
+}
+
+.receipt-indicator {
+    background-color: #27ae60;
+}
+
+#card-origin {
+    display: none;
+}
+
+.btn-statement {
+    height: 60px;
+    border-radius: 0;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    background-color: #343A40;
+}
+
+.copyright {
+    color: #fafafa;
+    text-align: center;
+}
+
+.copyright span {
+    color: #FBB452;
+}
+
+.modal-dialog {
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.modal-content {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.totalizer {
+    width: 100%;
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 0 0;
+    padding: 50px 0;
+}
+
+.positive {
+    color: #27ae60 !important;
+}
+
+.negative {
+    color: #c0392b !important;
+}
+
+.value {
+    color: #cccccc;
+    text-align: center;
+}
