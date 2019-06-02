@@ -108,7 +108,7 @@ body {
 .modal-dialog {
     padding: 0;
     width: 100vw;
-    height: 100vh;
+    height: 85vh;
     margin: 0;
 }
 
@@ -136,4 +136,27 @@ body {
 .value {
     color: #cccccc;
     text-align: center;
+}
+
+h4 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.datum {
+    font-weight: 700;
+}
+
+.datum span {
+    font-weight: 400;
+    display: block;
+    float: left
+}
+
+.datum span:last-child {
+    margin-left: 5px;
+}
+
+label {
+    width: 100%;
 }
